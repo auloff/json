@@ -1,14 +1,14 @@
 {
     "grow_old_states": [
-      { "state": 0, "age": 20 },
-      { "state": 2, "age": 30 },
-      { "state": 1, "age": 40 },
-      { "state": 3, "age": 50 },
-      { "state": 4, "age": 60 }
+      { "state": 0, "min_age": 0, "max_age":29 },
+      { "state": 2, "min_age": 30, "max_age":39 },
+      { "state": 1, "min_age": 40, "max_age":49 },
+      { "state": 3, "min_age": 50, "max_age":59 },
+      { "state": 4, "min_age": 60, "max_age":99 }
     ],
     "emotion_states": [
-        { "emotion": "SAD", "age": 30 },
-        { "emotion": "USUAL", "age": 60 },
-        { "emotion": "HAPPY", "age": 100 }
+        { "emotion": "SAD", "min_joy": 0, "max_joy":30 },
+        { "emotion": "USUAL", "min_joy": 31, "max_joy":69 },
+        { "emotion": "HAPPY", "min_joy": 70, "max_joy":100 }
     ]
 }
