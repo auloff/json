@@ -1,0 +1,14 @@
+{
+    "grow_old_states": [
+      { "state": 0, "age": 20 },
+      { "state": 2, "age": 30 },
+      { "state": 1, "age": 40 },
+      { "state": 3, "age": 50 },
+      { "state": 4, "age": 60 }
+    ],
+    "emotion_states": [
+        { "emotion": "SAD", "age": 30 },
+        { "emotion": "USUAL", "age": 60 },
+        { "emotion": "HAPPY", "age": 100 }
+    ]
+}
